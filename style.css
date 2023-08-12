@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  Font size: 15px;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  max-width: 880px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden; 
+}
+
+.card-one{
+  background-color: hsl(31, 77%, 52%);
+  height: 450px;
+  width: auto;
+  color: #fff;
+}
+
+.card-two{
+   background-color: hsl(184, 100%, 22%);
+   height: 450px;
+   width: auto;
+   color: #fff;
+   
+ }
+
+ .card-three{
+   background-color: hsl(179, 100%, 13%);
+   height: 450px;
+   width: auto;
+   color: #fff;
+   
+ }
+
+.img img{
+  height: auto;
+  width: auto;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.name h6{
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 35px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.des{
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: left ;
+  line-height: 1.5rem;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.btn{
+  margin: 30px 50px;
+  padding: 1.2em  2.5em;
+  border-radius: 35px;
+  border: none;
+  font-weight: 550;
+}
+
+.btn1{
+  color: hsl(31, 77%, 52%);
+}
+
+.btn2{
+  color: hsl(184, 100%, 22%);
+}
+
+.btn3{
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    text-align: center;
+    margin: 4rem;
+  }
+
+
+.attribution a {
+  color: rgb(90, 192, 243);
+}
+
+ @media only screen and (max-width: 763px){
+  .container {
+    margin: 15px auto;
+    padding: 0 15px;
+    grid-template-columns: 1fr;
+  }
+} 
